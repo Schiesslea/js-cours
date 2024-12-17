@@ -51,14 +51,12 @@ export const setupGestionnaires = () => {
         if (target===null) return
         // Récupérer l'id du livre à supprimer à partir du data-id(dataset)
         const idLivre = target.dataset.id
-        console.log(idLivre)
-
         // Déterminer sur quel élément on a cliqué
         if (target.classList.contains("delete-btn")) {
             supprimerLivre(idLivre)
             afficherLivres() // Mise à jour de l'affichage
         } else if (target.classList.contains('toggle-read-btn')) {
-            estLu(idLivre , !target.dataset.isRead)
+            estLu(idLivre)
             afficherLivres()
         }
 

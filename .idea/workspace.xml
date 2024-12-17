@@ -56,12 +56,12 @@
     &quot;assignee&quot;: &quot;Schiesslea&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Schiesslea/js-cours.git",
-    "accountId": "f6ed308b-662e-4110-a69b-8e06bb05a3bc"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Schiesslea/js-cours.git&quot;,
+    &quot;accountId&quot;: &quot;f6ed308b-662e-4110-a69b-8e06bb05a3bc&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
   <component name="ProjectColorInfo">{
@@ -79,7 +79,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/schiesslea/Documents/cybersecurite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -108,6 +108,7 @@
       <updated>1733734149928</updated>
       <workItem from="1733734152003" duration="7235000" />
       <workItem from="1733821661939" duration="11733000" />
+      <workItem from="1733840895413" duration="1244000" />
     </task>
     <servers />
   </component>

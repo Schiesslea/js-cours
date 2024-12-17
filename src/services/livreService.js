@@ -49,12 +49,9 @@ export const supprimerLivre = id => {
 }
 
 export const estLu = id => {
-    // Récupérer tous les livres depuis le localStorage
-    // Récupérer dans le localStorage la valeur liée à la clé livre
-    const livresJSON = localStorage.getItem('livres');
-    // Désérialiser le JSON dans un tableau JavaScript
-    const livres = livresJSON ? JSON.parse(livresJSON) : []
-    const livreLu = livres.find(livre => livre.id === id)
-    livreLu.estLu = true
+    const livres = rechercherTousLesLivres()
+    const livre = livres.find(livre => livre.id === id)
+    livre.estLu = !livre.estLu
+    localStorage.setItem('livres', JSON.stringify(livres))
 
 }
